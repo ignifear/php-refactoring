@@ -1,0 +1,12 @@
+<phpunit
+        bootstrap="vendor/autoload.php"
+        beStrictAboutTestsThatDoNotTestAnything="true"
+        beStrictAboutOutputDuringTests="true"
+        beStrictAboutChangesToGlobalState="true"
+>
+    <testsuites>
+        <testsuite name="phpRefactor">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
